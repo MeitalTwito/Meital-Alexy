@@ -124,7 +124,7 @@ ul {
   background-image: url("/img/shutterstock_734679994.jpg"); /* Replace 'background-image.jpg' with your image path */
   background-size: cover;
   background-position: center;
-  background-attachment: fixed; /* Keeps the background fixed while scrolling */
+  /* background-attachment: fixed; Keeps the background fixed while scrolling */
   height: calc(50vh); /* Adjust height according to your needs */
   position: relative;
 }
@@ -136,13 +136,12 @@ ul {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #6244406e; /* Adjust the alpha (last value) to change transparency */
-  z-index: 1; /* Make sure this overlay is above the background image */
+  background-color: #6244406e;
 }
 
 .content {
   position: relative;
-  z-index: 2; /* Make sure content is above the overlay */
+  z-index: 1; /* Make sure content is above the overlay */
   text-align: center;
   padding: 50px;
 }
