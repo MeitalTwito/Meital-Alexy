@@ -66,7 +66,7 @@ ul {
 
 .hero {
   height: calc(100vh);
-  background-image: linear-gradient(#bcc7d600, #624440ca),
+  background-image: linear-gradient(#bcc7d600, #62444068),
     url(/img/IMG_2663.JPG);
   background-size: cover;
   display: flex;
