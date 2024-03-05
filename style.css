@@ -117,6 +117,10 @@ ul {
   font-size: 2rem;
 }
 
+.invite-text li strong {
+  margin-left: 2rem;
+}
+
 /* ************************** */
 /* transparent */
 /* ************************** */
